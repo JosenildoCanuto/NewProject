@@ -42,6 +42,3 @@ if("idade" in resultado){
 if("rodas" in resultado){
   console.log(resultado.rodas)
 }
-
-// console.log(resultado)
-funcao(false)
