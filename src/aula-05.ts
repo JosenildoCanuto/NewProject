@@ -1,9 +1,9 @@
 interface Estado {
-  nome: String
+  nome: String;
 }
 
 interface Cidade {
-  nome: String
+  nome: String;
 }
 
 interface Endereco {
@@ -19,12 +19,12 @@ const endereco: Endereco = {
   rua: "AJBjbasdjfbajsbdasjk",
   complemento: "sdbfshjdbfsjdbf",
   cidade: {
-    nome: "Maceió"
+    nome: "Maceió",
   },
   estado: {
-    nome: "Alagoas"
-  }
-}
+    nome: "Alagoas",
+  },
+};
 
-console.log(endereco)
-console.log(endereco.complemento?.substring(3) || "CONSEGUIR")
+console.log(endereco);
+console.log(endereco.complemento?.substring(3) || "CONSEGUIR");
